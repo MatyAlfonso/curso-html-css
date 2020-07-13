@@ -1,0 +1,56 @@
+*{
+    background-color: lavender;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*Encabezado de la página*/
+h1 {
+    color: royalblue; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200px;
+}
+h1.subrayado {
+    text-decoration: underline ;
+}
+h2 {
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parrafo1{
+    color: red;
+    font-family: serif;
+}
+span {
+    color: goldenrod;
+}
+.parrafo2 {
+    color: teal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.parrafo3 {
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#mayusculas {
+    text-transform: uppercase;
+}
+/* Selector pseudo-clases*/
+a:link {
+    color: lightcoral;
+}
+a:visited {
+    color: lightgreen;
+}
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+a:active {
+    color: indigo;
+}
+/*Selector de Atributo*/
+img[title]{
+    width: 200px;
+    height: auto;
+}

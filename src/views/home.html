@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home del sitio</title>
+    <script type="text/javascript" src="../../public/js/home.js"></script>
 </head>
+
 <body>
-    <h1>ESte es el <strong>HOME</strong></h1>
+    <div>
+        <h1>Probando <strong>DIV Y SPAN</strong></h1>
+        <img src="../../public/img/flowers-1325012_1920.jpg">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae mollitia reiciendis facilis fugit
+            possimus ipsam tempore corporis soluta vel autem voluptatem facere suscipit nobis veniam, nemo itaque error,
+            iure quasi. Sint vitae, eaque earum reiciendis modi dignissimos laudantium ullam neque ut officia.
+            <span>
+                Similique
+                ea libero illo magni dolorem maiores at accusantium reprehenderit optio ab impedit quam, officiis
+                mollitia
+                adipisci ullam explicabo quod natus tempore cupiditate voluptas sunt amet tempora molestiae veniam.
+            </span>
+            Tempore dolorem quia dignissimos itaque commodi, assumenda numquam, neque error, minus molestias dolor
+            repellendus
+            sed fugiat animi optio corrupti quo consequatur. Officiis, corporis expedita provident reiciendis alias
+            assumenda ratione.
+        </p>
+    </div>
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.4436692528!2d-58.503337938334994!3d-34.615662459017386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1594571119887!5m2!1ses-419!2sar"
+            width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fFPfHIOlKPM" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="home.html" width="400" height="300" name="cuadro" frameborder="0"></iframe>
+        <a href="../../src/views/index.html" target="cuadro">La otra cosa</a>
+    </div>
+    <div>
+        &lt; &gt;
+    </div>
+    <div>
+
+        <form action="#" method="post">
+            <div>
+                <label for="nombre">Nombre:</label> <br>
+                <input type="text" name="usuario" size="15" maxlength="30"> <br>
+                <label for="password">Password:</label> <br>
+                <input type="password" name="password" size="15" maxlength="30"> <br>
+                <label for="comentario">Comentarios:</label> <br>
+                <textarea name="comentarios" cols="20" rows="4"></textarea>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="servicio de musica">Servicio de música:</label> <br>
+                <input type="checkbox" name="servicio" value="itunes" checked> iTunes <br>
+                <input type="checkbox" name="servicio" value="Spotify"> Spotify
+            </div>
+
+            <br>
+
+            <div>
+                <label for="genero">Seleccione su género</label> <br>
+                <input type="radio" name="genero" value="masculino"> Masculino <br>
+                <input type="radio" name="genero" value="femenino"> Femenino <br>
+            </div>
+
+            <div>
+                <label for="dispositivo de musica">Seleccione el dispositivo que utiliza para escuchar música</label>
+                <br>
+                <select name="dispositivo">
+                    <option value="ipod"> iPod </option>
+                    <option value="radio"> Radio </option>
+                    <option value="computador" selected> Computador </option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="dispositivo de musica">Seleccione el dispositivo que utiliza para escuchar música</label>
+                <br>
+                <select name="dispositivo" size="5" multiple>
+                    <option value="ipod"> iPod </option>
+                    <option value="radio"> Radio </option>
+                    <option value="computador"> Computador </option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="text" name="edad">
+            </div>
+            <br>
+            <div>
+                <input type="submit" name="inscription" value="Inscripción">
+            </div>
+        </form>
+    </div>
+    <div>
+
+    </div>
 </body>
+
+
 </html>
