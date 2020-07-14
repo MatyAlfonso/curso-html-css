@@ -1,0 +1,138 @@
+* { margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/fondo-rosa2.jpg) no-repeat top center ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#cabecera {
+    position: relative;
+    padding-top: 20px;
+}
+#logo {
+    width: 25%;
+    float: left;
+    color: #f2809f;
+    font-size: 38px;
+    background: url(../img/nube.png) no-repeat left center ;
+    padding-left: 4%;
+    font-family: 'Sacramento', cursive;
+}
+#menu {
+    width: 70%;
+    float: right;
+    text-align: right;
+    padding-top: 12px;
+}
+#menu ul {
+    list-style-type: none;
+}
+#menu ul li {
+    display: inline-block;
+}
+#menu ul li a {
+    color: #f2809f;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#menu ul li a:hover, #menu ul li a#activo:hover {
+    border-bottom: 2px solid white;
+}
+#menu ul li a#activo {
+    border-bottom: 1px solid white;
+}
+#mensaje {
+    clear: both;
+    height: 340px;
+    position: relative;
+    text-align: center;
+    color: white;
+    background: url(../img/nube-mensaje.png) no-repeat center 90px;
+}
+#mensaje h2 {
+    position: relative;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: normal;
+    top: 160px;
+}
+#mensaje p {
+    position: relative;
+    font-size: 18px;
+    top: 170px;
+    letter-spacing: 1px;
+}
+#mensaje a {
+    position: relative;
+    top: 210px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+#principal, #footer {
+    padding: 20px 0;
+}
+#principal i {
+    color:  #f2acbf;
+    padding: 10px;
+}
+#principal img {
+    width: 50%;
+    float: right;
+    margin-left: 20px;
+}
+#principal h1 {
+    color: #f2acbf;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+#principal p {
+    font-size: 12px;
+    color: #555555;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    padding-left: 10px;
+    text-align: justify;
+}
+#principal hr {
+    border: none;
+    border-top: 1px solid #f2809f;
+    margin: 25px 0;
+}
+#principal iframe {
+    width: 100%;
+    height: 250px;
+}
+#footer {
+    background: #f2c9d1;
+    text-align: center;
+    position: relative;
+}
+#footer p {
+    color: #555555;
+    font-size: 12px;
+}
+#footer img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -8px;
+
+}
+#redes {
+    position: fixed;
+    right: 0;
+    /*top: 399px;
+    width: 36px;*/
+}
