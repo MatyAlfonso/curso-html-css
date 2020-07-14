@@ -5,34 +5,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página web</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../../public/css/styles.css">
+    
+   
 </head>
 
 <body>
     <!--Encabezado de la página-->
-    <div>
+    <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </nav>
+
+    <div class="cuadro">
         <h1 class="subrayado">Mi página web</h1>
-        <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est tempora repellat ipsum quidem explicabo neque
+        <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est tempora repellat ipsum quidem
+            explicabo neque
             odio modi exercitationem ad, odit, quibusdam voluptatum cumque. Molestiae exercitationem amet quia a eos eum
             iusto libero voluptates assumenda vero, delectus magni esse perferendis distinctio? Cumque odio tenetur
             repudiandae reiciendis mollitia soluta. Quasi illum fugiat natus quaerat quis sequi ut laboriosam, aperiam
             ipsam debitis nulla ipsum doloribus libero et expedita harum nam, commodi voluptate fugit distinctio dolorem
-            quod odit voluptatibus unde? Possimus quasi sequi eaque commodi. <span>Quas laudantium eligendi quasi voluptate
-            quos quia odit aliquam possimus, debitis cum? Explicabo doloremque quod quam ad, sed ex.</span></p>
-            <br>
-            <img src="../../public/img/flowers-1325012_1920.jpg" alt="flores rosas" title="Flores">
+            quod odit voluptatibus unde? Possimus quasi sequi eaque commodi. <span>Quas laudantium eligendi quasi
+                voluptate
+                quos quia odit aliquam possimus, debitis cum? Explicabo doloremque quod quam ad, sed ex.</span></p>
+        <br>
+        <img src="../../public/img/flowers-1325012_1920.jpg" alt="flores rosas" title="Flores">
         <h2>Un subtitulo de prueba</h2>
-        <p class="parrafo2 subrayado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nisi. Magni quaerat ullam id voluptas magnam
+        <p class="parrafo2 subrayado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nisi. Magni
+            quaerat ullam id voluptas magnam
             deserunt accusamus, error culpa, consequatur dicta repellat eos delectus blanditiis aspernatur, aut incidunt
             dolorem veniam omnis alias tempora obcaecati commodi dignissimos at! Dolores eaque expedita tempore quis
             laudantium sed odit sit assumenda fugiat nihil.</p>
-            <br>
-            <a href="http://www.google.com">Ir a Google</a>
-            <br>
-            <p class="parrafo3" id="mayusculas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum commodi quo iure dolor ipsum amet aperiam eveniet quasi repudiandae incidunt. Sit voluptatem facilis maxime impedit?</p>
+        <br>
+        <a href="http://www.google.com">Ir a Google</a>
+        <br>
+        <p class="parrafo3" id="mayusculas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum commodi quo
+            iure dolor ipsum amet aperiam eveniet quasi repudiandae incidunt. Sit voluptatem facilis maxime impedit?</p>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="../../public/img/flowers-1325012_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Google</h5>
+            <p class="card-text">Cliqueá acá para ir a Google!</p>
+            <a href="http://www.google.com" class="btn btn-dark">Go somewhere</a>
+        </div>
     </div>
 
-<!--Cuerpo de la página-->
+    <!--Cuerpo de la página-->
 </body>
 
 </html>
