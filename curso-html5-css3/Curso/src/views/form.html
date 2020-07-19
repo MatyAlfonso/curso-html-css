@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML5</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <input type="url" name="web" id="" required autofocus placeholder="Página web aquí"> <br>
+        Número de celular: <input type="text" name="movil" pattern="[0-9]{3}/s[0-9]{3}/s[0-9]{4}$" title="Debe ser un número de 3 digitos seguido de espacio, a continuación otro número de 3 digitos seguido de espacio y que termine con 4 números ej xxx xxx xxxx"> <br>
+        Correo: <input type="email" name="correo" id=""> <br>
+        Fecha: <input type="date" name="fecha" id=""> <br>
+        Mes: <input type="month" name="mes" id=""> <br>
+        Semana: <input type="week" name="semana" id=""> <br>
+        Hora: <input type="time" name="hora" id=""> <br>
+        Fecha y hora: <input type="datetime-local" name="fecha-hora" id=""> <br>
+        Edad: <input type="number" name="edad" id="" min="20" max="50" step="5"><br>
+        Puntos: <input type="range" name="puntos" id=""> <br>
+        Color favorito: <input type="color" name="color_fav" id=""> <br>
+        <input list="colores" name="colores">
+        <datalist id="colores">
+            <option value="Rojo"></option>
+            <option value="Azul"></option>
+            <option value="Verde"></option>
+            <option value="Amarillo"></option>
+            <option value="Rosa"></option>
+        </datalist> <br>
+        <!--<input type="submit" value="Enviar datos">-->
+        <input type="image" src="../../../Curso_HTML5_DanielLopez/img/btn_enviar.png" alt="Enviar">
+    </form>
+</body>
+
+</html>
